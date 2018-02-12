@@ -1,0 +1,418 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TVQueryResponse"
+- "Results"
+provides-nominal:
+- "25TelevisionBingeCalculator15TVQueryResponseV"
+- "25TelevisionBingeCalculator15TVQueryResponseV10CodingKeysO"
+- "25TelevisionBingeCalculator7ResultsV"
+- "25TelevisionBingeCalculator7ResultsV10CodingKeysO"
+provides-member:
+- ["25TelevisionBingeCalculator15TVQueryResponseV", ""]
+- ["25TelevisionBingeCalculator15TVQueryResponseV10CodingKeysO", ""]
+- ["25TelevisionBingeCalculator7ResultsV", ""]
+- ["25TelevisionBingeCalculator7ResultsV10CodingKeysO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- !private "Array"
+- "AssignmentPrecedence"
+- "Codable"
+- "CodingKey"
+- "Decoder"
+- "Double"
+- "Int"
+- "Results"
+- "String"
+- "StringLiteralType"
+- "TVQueryResponse"
+- !private "~="
+depends-member:
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["s13BinaryIntegerP", "hashValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "hashValue"]
+- ["s7CVarArgP", "init"]
+- ["s9CodingKeyP", "RawValue"]
+- !private ["s9CodingKeyP", "backdrop_path"]
+- !private ["s9CodingKeyP", "first_air_date"]
+- !private ["s9CodingKeyP", "genre_ids"]
+- ["s9CodingKeyP", "hashValue"]
+- !private ["s9CodingKeyP", "id"]
+- ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- !private ["s9CodingKeyP", "name"]
+- !private ["s9CodingKeyP", "origin_country"]
+- !private ["s9CodingKeyP", "original_language"]
+- !private ["s9CodingKeyP", "original_name"]
+- !private ["s9CodingKeyP", "overview"]
+- !private ["s9CodingKeyP", "page"]
+- !private ["s9CodingKeyP", "popularity"]
+- !private ["s9CodingKeyP", "poster_path"]
+- ["s9CodingKeyP", "rawValue"]
+- !private ["s9CodingKeyP", "results"]
+- ["s9CodingKeyP", "stringValue"]
+- !private ["s9CodingKeyP", "total_pages"]
+- !private ["s9CodingKeyP", "total_results"]
+- !private ["s9CodingKeyP", "vote_average"]
+- !private ["s9CodingKeyP", "vote_count"]
+- ["s9CodingKeyP", ""]
+- ["25TelevisionBingeCalculator15TVQueryResponseV10CodingKeysO", "RawValue"]
+- ["25TelevisionBingeCalculator15TVQueryResponseV10CodingKeysO", "deinit"]
+- ["25TelevisionBingeCalculator15TVQueryResponseV10CodingKeysO", "hashValue"]
+- ["25TelevisionBingeCalculator15TVQueryResponseV10CodingKeysO", "init"]
+- ["25TelevisionBingeCalculator15TVQueryResponseV10CodingKeysO", "intValue"]
+- ["25TelevisionBingeCalculator15TVQueryResponseV10CodingKeysO", "page"]
+- ["25TelevisionBingeCalculator15TVQueryResponseV10CodingKeysO", "rawValue"]
+- ["25TelevisionBingeCalculator15TVQueryResponseV10CodingKeysO", "results"]
+- ["25TelevisionBingeCalculator15TVQueryResponseV10CodingKeysO", "stringValue"]
+- ["25TelevisionBingeCalculator15TVQueryResponseV10CodingKeysO", "total_pages"]
+- ["25TelevisionBingeCalculator15TVQueryResponseV10CodingKeysO", "total_results"]
+- ["25TelevisionBingeCalculator7ResultsV10CodingKeysO", "RawValue"]
+- ["25TelevisionBingeCalculator7ResultsV10CodingKeysO", "backdrop_path"]
+- ["25TelevisionBingeCalculator7ResultsV10CodingKeysO", "deinit"]
+- ["25TelevisionBingeCalculator7ResultsV10CodingKeysO", "first_air_date"]
+- ["25TelevisionBingeCalculator7ResultsV10CodingKeysO", "genre_ids"]
+- ["25TelevisionBingeCalculator7ResultsV10CodingKeysO", "hashValue"]
+- ["25TelevisionBingeCalculator7ResultsV10CodingKeysO", "id"]
+- ["25TelevisionBingeCalculator7ResultsV10CodingKeysO", "init"]
+- ["25TelevisionBingeCalculator7ResultsV10CodingKeysO", "intValue"]
+- ["25TelevisionBingeCalculator7ResultsV10CodingKeysO", "name"]
+- ["25TelevisionBingeCalculator7ResultsV10CodingKeysO", "origin_country"]
+- ["25TelevisionBingeCalculator7ResultsV10CodingKeysO", "original_language"]
+- ["25TelevisionBingeCalculator7ResultsV10CodingKeysO", "original_name"]
+- ["25TelevisionBingeCalculator7ResultsV10CodingKeysO", "overview"]
+- ["25TelevisionBingeCalculator7ResultsV10CodingKeysO", "popularity"]
+- ["25TelevisionBingeCalculator7ResultsV10CodingKeysO", "poster_path"]
+- ["25TelevisionBingeCalculator7ResultsV10CodingKeysO", "rawValue"]
+- ["25TelevisionBingeCalculator7ResultsV10CodingKeysO", "stringValue"]
+- ["25TelevisionBingeCalculator7ResultsV10CodingKeysO", "vote_average"]
+- ["25TelevisionBingeCalculator7ResultsV10CodingKeysO", "vote_count"]
+- ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "hashValue"]
+- ["s10ComparableP", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "hashValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "hashValue"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s9DecodableP", "CodingKeys"]
+- !private ["s9DecodableP", "Double"]
+- !private ["s9DecodableP", "Int"]
+- !private ["s9DecodableP", "Results"]
+- !private ["s9DecodableP", "String"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "backdrop_path"]
+- ["s9DecodableP", "encode"]
+- !private ["s9DecodableP", "first_air_date"]
+- !private ["s9DecodableP", "genre_ids"]
+- !private ["s9DecodableP", "hashValue"]
+- !private ["s9DecodableP", "id"]
+- ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "name"]
+- !private ["s9DecodableP", "origin_country"]
+- !private ["s9DecodableP", "original_language"]
+- !private ["s9DecodableP", "original_name"]
+- !private ["s9DecodableP", "overview"]
+- !private ["s9DecodableP", "page"]
+- !private ["s9DecodableP", "popularity"]
+- !private ["s9DecodableP", "poster_path"]
+- !private ["s9DecodableP", "results"]
+- !private ["s9DecodableP", "total_pages"]
+- !private ["s9DecodableP", "total_results"]
+- !private ["s9DecodableP", "vote_average"]
+- !private ["s9DecodableP", "vote_count"]
+- ["s9DecodableP", ""]
+- !private ["s7DecoderP", "container"]
+- !private ["s9EncodableP", "CodingKeys"]
+- !private ["s9EncodableP", "Double"]
+- !private ["s9EncodableP", "Int"]
+- !private ["s9EncodableP", "Results"]
+- !private ["s9EncodableP", "String"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "backdrop_path"]
+- ["s9EncodableP", "encode"]
+- !private ["s9EncodableP", "first_air_date"]
+- !private ["s9EncodableP", "genre_ids"]
+- !private ["s9EncodableP", "hashValue"]
+- !private ["s9EncodableP", "id"]
+- ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "name"]
+- !private ["s9EncodableP", "origin_country"]
+- !private ["s9EncodableP", "original_language"]
+- !private ["s9EncodableP", "original_name"]
+- !private ["s9EncodableP", "overview"]
+- !private ["s9EncodableP", "page"]
+- !private ["s9EncodableP", "popularity"]
+- !private ["s9EncodableP", "poster_path"]
+- !private ["s9EncodableP", "results"]
+- !private ["s9EncodableP", "total_pages"]
+- !private ["s9EncodableP", "total_results"]
+- !private ["s9EncodableP", "vote_average"]
+- !private ["s9EncodableP", "vote_count"]
+- ["s9EncodableP", ""]
+- !private ["s7EncoderP", "container"]
+- ["s9EquatableP", "RawValue"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "backdrop_path"]
+- !private ["s9EquatableP", "first_air_date"]
+- !private ["s9EquatableP", "genre_ids"]
+- ["s9EquatableP", "hashValue"]
+- !private ["s9EquatableP", "id"]
+- ["s9EquatableP", "init"]
+- ["s9EquatableP", "intValue"]
+- !private ["s9EquatableP", "name"]
+- !private ["s9EquatableP", "origin_country"]
+- !private ["s9EquatableP", "original_language"]
+- !private ["s9EquatableP", "original_name"]
+- !private ["s9EquatableP", "overview"]
+- !private ["s9EquatableP", "page"]
+- !private ["s9EquatableP", "popularity"]
+- !private ["s9EquatableP", "poster_path"]
+- ["s9EquatableP", "rawValue"]
+- !private ["s9EquatableP", "results"]
+- ["s9EquatableP", "stringValue"]
+- !private ["s9EquatableP", "total_pages"]
+- !private ["s9EquatableP", "total_results"]
+- !private ["s9EquatableP", "vote_average"]
+- !private ["s9EquatableP", "vote_count"]
+- ["s9EquatableP", ""]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "hashValue"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "hashValue"]
+- ["s8HashableP", "RawValue"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "backdrop_path"]
+- !private ["s8HashableP", "first_air_date"]
+- !private ["s8HashableP", "genre_ids"]
+- ["s8HashableP", "hashValue"]
+- !private ["s8HashableP", "id"]
+- ["s8HashableP", "init"]
+- ["s8HashableP", "intValue"]
+- !private ["s8HashableP", "name"]
+- !private ["s8HashableP", "origin_country"]
+- !private ["s8HashableP", "original_language"]
+- !private ["s8HashableP", "original_name"]
+- !private ["s8HashableP", "overview"]
+- !private ["s8HashableP", "page"]
+- !private ["s8HashableP", "popularity"]
+- !private ["s8HashableP", "poster_path"]
+- ["s8HashableP", "rawValue"]
+- !private ["s8HashableP", "results"]
+- ["s8HashableP", "stringValue"]
+- !private ["s8HashableP", "total_pages"]
+- !private ["s8HashableP", "total_results"]
+- !private ["s8HashableP", "vote_average"]
+- !private ["s8HashableP", "vote_count"]
+- ["s8HashableP", ""]
+- !private ["Si", "hashValue"]
+- !private ["s22KeyedDecodingContainerV", "decodeIfPresent"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decodeIfPresent"]
+- !private ["s22KeyedEncodingContainerV", "encodeIfPresent"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encodeIfPresent"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "hashValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "hashValue"]
+- ["s10MirrorPathP", "init"]
+- ["So8NSCodingP", "init"]
+- ["So9NSCopyingP", "init"]
+- ["So21NSItemProviderReadingP", "init"]
+- ["So21NSItemProviderWritingP", "init"]
+- ["So16NSMutableCopyingP", "init"]
+- ["So16NSObjectProtocolP", "init"]
+- ["So14NSSecureCodingP", "init"]
+- ["So8NSStringC", "init"]
+- !private ["s7NumericP", "hashValue"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- ["s16RawRepresentableP", "RawValue"]
+- !private ["s16RawRepresentableP", "backdrop_path"]
+- !private ["s16RawRepresentableP", "first_air_date"]
+- !private ["s16RawRepresentableP", "genre_ids"]
+- ["s16RawRepresentableP", "hashValue"]
+- !private ["s16RawRepresentableP", "id"]
+- ["s16RawRepresentableP", "init"]
+- ["s16RawRepresentableP", "intValue"]
+- !private ["s16RawRepresentableP", "name"]
+- !private ["s16RawRepresentableP", "origin_country"]
+- !private ["s16RawRepresentableP", "original_language"]
+- !private ["s16RawRepresentableP", "original_name"]
+- !private ["s16RawRepresentableP", "overview"]
+- !private ["s16RawRepresentableP", "page"]
+- !private ["s16RawRepresentableP", "popularity"]
+- !private ["s16RawRepresentableP", "poster_path"]
+- ["s16RawRepresentableP", "rawValue"]
+- !private ["s16RawRepresentableP", "results"]
+- ["s16RawRepresentableP", "stringValue"]
+- !private ["s16RawRepresentableP", "total_pages"]
+- !private ["s16RawRepresentableP", "total_results"]
+- !private ["s16RawRepresentableP", "vote_average"]
+- !private ["s16RawRepresentableP", "vote_count"]
+- ["s16RawRepresentableP", ""]
+- ["25TelevisionBingeCalculator7ResultsV", "CodingKey"]
+- ["25TelevisionBingeCalculator7ResultsV", "CodingKeys"]
+- ["25TelevisionBingeCalculator7ResultsV", "Decoder"]
+- ["25TelevisionBingeCalculator7ResultsV", "Double"]
+- ["25TelevisionBingeCalculator7ResultsV", "Int"]
+- ["25TelevisionBingeCalculator7ResultsV", "String"]
+- ["25TelevisionBingeCalculator7ResultsV", "backdrop_path"]
+- ["25TelevisionBingeCalculator7ResultsV", "deinit"]
+- ["25TelevisionBingeCalculator7ResultsV", "encode"]
+- ["25TelevisionBingeCalculator7ResultsV", "first_air_date"]
+- ["25TelevisionBingeCalculator7ResultsV", "genre_ids"]
+- ["25TelevisionBingeCalculator7ResultsV", "id"]
+- ["25TelevisionBingeCalculator7ResultsV", "init"]
+- ["25TelevisionBingeCalculator7ResultsV", "name"]
+- ["25TelevisionBingeCalculator7ResultsV", "origin_country"]
+- ["25TelevisionBingeCalculator7ResultsV", "original_language"]
+- ["25TelevisionBingeCalculator7ResultsV", "original_name"]
+- ["25TelevisionBingeCalculator7ResultsV", "overview"]
+- ["25TelevisionBingeCalculator7ResultsV", "popularity"]
+- ["25TelevisionBingeCalculator7ResultsV", "poster_path"]
+- ["25TelevisionBingeCalculator7ResultsV", "vote_average"]
+- ["25TelevisionBingeCalculator7ResultsV", "vote_count"]
+- ["s8SequenceP", "init"]
+- !private ["s13SignedIntegerP", "hashValue"]
+- !private ["s13SignedNumericP", "hashValue"]
+- !private ["s10StrideableP", "hashValue"]
+- ["SS", "init"]
+- ["s14StringProtocolP", "init"]
+- ["25TelevisionBingeCalculator15TVQueryResponseV", "CodingKey"]
+- ["25TelevisionBingeCalculator15TVQueryResponseV", "CodingKeys"]
+- ["25TelevisionBingeCalculator15TVQueryResponseV", "Decoder"]
+- ["25TelevisionBingeCalculator15TVQueryResponseV", "Int"]
+- ["25TelevisionBingeCalculator15TVQueryResponseV", "Results"]
+- ["25TelevisionBingeCalculator15TVQueryResponseV", "String"]
+- ["25TelevisionBingeCalculator15TVQueryResponseV", "deinit"]
+- ["25TelevisionBingeCalculator15TVQueryResponseV", "encode"]
+- ["25TelevisionBingeCalculator15TVQueryResponseV", "init"]
+- ["25TelevisionBingeCalculator15TVQueryResponseV", "page"]
+- ["25TelevisionBingeCalculator15TVQueryResponseV", "results"]
+- ["25TelevisionBingeCalculator15TVQueryResponseV", "total_pages"]
+- ["25TelevisionBingeCalculator15TVQueryResponseV", "total_results"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["s23_BidirectionalIndexableP", "init"]
+- !private ["s18_BitwiseOperationsP", "hashValue"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "hashValue"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- ["s10_IndexableP", "init"]
+- ["s14_IndexableBaseP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "hashValue"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s11_StrideableP", "hashValue"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "s23BidirectionalCollectionP"
+- !private "s13BinaryIntegerP"
+- !private "Sb"
+- "s7CVarArgP"
+- "s9CodingKeyP"
+- "25TelevisionBingeCalculator15TVQueryResponseV10CodingKeysO"
+- "25TelevisionBingeCalculator7ResultsV10CodingKeysO"
+- "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- !private "s7DecoderP"
+- "s9EncodableP"
+- !private "s7EncoderP"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "s8HashableP"
+- !private "Si"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- !private "s22KeyedEncodingContainerV"
+- !private "s30KeyedEncodingContainerProtocolP"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- "So16NSMutableCopyingP"
+- "So16NSObjectProtocolP"
+- "So14NSSecureCodingP"
+- "So8NSStringC"
+- !private "s7NumericP"
+- "s26RangeReplaceableCollectionP"
+- "s16RawRepresentableP"
+- "25TelevisionBingeCalculator7ResultsV"
+- "s8SequenceP"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- !private "s10StrideableP"
+- "SS"
+- "s14StringProtocolP"
+- "25TelevisionBingeCalculator15TVQueryResponseV"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "s23_BidirectionalIndexableP"
+- !private "s18_BitwiseOperationsP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s10_IndexableP"
+- "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s26_RangeReplaceableIndexableP"
+- !private "s11_StrideableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "c605b5a36af3a31d9b42f60b4e9c6e1c"

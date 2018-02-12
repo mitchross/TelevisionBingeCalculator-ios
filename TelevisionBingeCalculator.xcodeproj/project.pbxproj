@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1367DCFD20313E0700698769 /* ShowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1367DCFB20313E0700698769 /* ShowCell.swift */; };
+		13C63EAE2030DA0A00984213 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C63EAD2030DA0A00984213 /* ViewModel.swift */; };
+		13C9A43620278B870002915E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C9A43520278B870002915E /* AppDelegate.swift */; };
+		13C9A43B20278B870002915E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13C9A43920278B870002915E /* Main.storyboard */; };
+		13C9A43D20278B870002915E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13C9A43C20278B870002915E /* Assets.xcassets */; };
+		13C9A44020278B870002915E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13C9A43E20278B870002915E /* LaunchScreen.storyboard */; };
+		13C9A44B20278B870002915E /* TelevisionBingeCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C9A44A20278B870002915E /* TelevisionBingeCalculatorTests.swift */; };
+		13C9A45620278B870002915E /* TelevisionBingeCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C9A45520278B870002915E /* TelevisionBingeCalculatorUITests.swift */; };
+		13C9A46A20279D7A0002915E /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C9A46920279D7A0002915E /* APIClient.swift */; };
+		13C9A46C202A9A6B0002915E /* TheMovieDbClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C9A46B202A9A6A0002915E /* TheMovieDbClient.swift */; };
+		13C9A46E202A9AF50002915E /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C9A46D202A9AF50002915E /* Endpoint.swift */; };
+		13C9A470202A9FCE0002915E /* TVQueryResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C9A46F202A9FCE0002915E /* TVQueryResponse.swift */; };
+		13FBC43B20313FE500FD827D /* ShowsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FBC43A20313FE500FD827D /* ShowsViewController.swift */; };
+		13FBC43D2031402100FD827D /* PinterestLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FBC43C2031402100FD827D /* PinterestLayout.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13C9A44720278B870002915E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13C9A42A20278B870002915E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13C9A43120278B870002915E;
+			remoteInfo = TelevisionBingeCalculator;
+		};
+		13C9A45220278B870002915E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13C9A42A20278B870002915E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13C9A43120278B870002915E;
+			remoteInfo = TelevisionBingeCalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1367DCFB20313E0700698769 /* ShowCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowCell.swift; sourceTree = "<group>"; };
+		13C63EAD2030DA0A00984213 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		13C9A43220278B870002915E /* TelevisionBingeCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TelevisionBingeCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13C9A43520278B870002915E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		13C9A43A20278B870002915E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		13C9A43C20278B870002915E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13C9A43F20278B870002915E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		13C9A44120278B870002915E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13C9A44620278B870002915E /* TelevisionBingeCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TelevisionBingeCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13C9A44A20278B870002915E /* TelevisionBingeCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelevisionBingeCalculatorTests.swift; sourceTree = "<group>"; };
+		13C9A44C20278B870002915E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13C9A45120278B870002915E /* TelevisionBingeCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TelevisionBingeCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13C9A45520278B870002915E /* TelevisionBingeCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelevisionBingeCalculatorUITests.swift; sourceTree = "<group>"; };
+		13C9A45720278B870002915E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13C9A46920279D7A0002915E /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		13C9A46B202A9A6A0002915E /* TheMovieDbClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheMovieDbClient.swift; sourceTree = "<group>"; };
+		13C9A46D202A9AF50002915E /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		13C9A46F202A9FCE0002915E /* TVQueryResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVQueryResponse.swift; sourceTree = "<group>"; };
+		13FBC43A20313FE500FD827D /* ShowsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowsViewController.swift; sourceTree = "<group>"; };
+		13FBC43C2031402100FD827D /* PinterestLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinterestLayout.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13C9A42F20278B870002915E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13C9A44320278B870002915E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13C9A44E20278B870002915E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13C9A42920278B870002915E = {
+			isa = PBXGroup;
+			children = (
+				13C9A43420278B870002915E /* TelevisionBingeCalculator */,
+				13C9A44920278B870002915E /* TelevisionBingeCalculatorTests */,
+				13C9A45420278B870002915E /* TelevisionBingeCalculatorUITests */,
+				13C9A43320278B870002915E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		13C9A43320278B870002915E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13C9A43220278B870002915E /* TelevisionBingeCalculator.app */,
+				13C9A44620278B870002915E /* TelevisionBingeCalculatorTests.xctest */,
+				13C9A45120278B870002915E /* TelevisionBingeCalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13C9A43420278B870002915E /* TelevisionBingeCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				13FBC43920313FC400FD827D /* ViewControllers */,
+				13C9A46720279CC00002915E /* ViewModels */,
+				13C9A46820279CDE0002915E /* Networking */,
+				13C9A43520278B870002915E /* AppDelegate.swift */,
+				13C9A43920278B870002915E /* Main.storyboard */,
+				13C9A43C20278B870002915E /* Assets.xcassets */,
+				13C9A43E20278B870002915E /* LaunchScreen.storyboard */,
+				13C9A44120278B870002915E /* Info.plist */,
+				13FBC43C2031402100FD827D /* PinterestLayout.swift */,
+			);
+			path = TelevisionBingeCalculator;
+			sourceTree = "<group>";
+		};
+		13C9A44920278B870002915E /* TelevisionBingeCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				13C9A44A20278B870002915E /* TelevisionBingeCalculatorTests.swift */,
+				13C9A44C20278B870002915E /* Info.plist */,
+			);
+			path = TelevisionBingeCalculatorTests;
+			sourceTree = "<group>";
+		};
+		13C9A45420278B870002915E /* TelevisionBingeCalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				13C9A45520278B870002915E /* TelevisionBingeCalculatorUITests.swift */,
+				13C9A45720278B870002915E /* Info.plist */,
+			);
+			path = TelevisionBingeCalculatorUITests;
+			sourceTree = "<group>";
+		};
+		13C9A46720279CC00002915E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				1367DCFB20313E0700698769 /* ShowCell.swift */,
+				13C63EAD2030DA0A00984213 /* ViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		13C9A46820279CDE0002915E /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				13C9A46920279D7A0002915E /* APIClient.swift */,
+				13C9A46B202A9A6A0002915E /* TheMovieDbClient.swift */,
+				13C9A46D202A9AF50002915E /* Endpoint.swift */,
+				13C9A46F202A9FCE0002915E /* TVQueryResponse.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		13FBC43920313FC400FD827D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				13FBC43A20313FE500FD827D /* ShowsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13C9A43120278B870002915E /* TelevisionBingeCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13C9A45A20278B870002915E /* Build configuration list for PBXNativeTarget "TelevisionBingeCalculator" */;
+			buildPhases = (
+				13C9A42E20278B870002915E /* Sources */,
+				13C9A42F20278B870002915E /* Frameworks */,
+				13C9A43020278B870002915E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TelevisionBingeCalculator;
+			productName = TelevisionBingeCalculator;
+			productReference = 13C9A43220278B870002915E /* TelevisionBingeCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		13C9A44520278B870002915E /* TelevisionBingeCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13C9A45D20278B870002915E /* Build configuration list for PBXNativeTarget "TelevisionBingeCalculatorTests" */;
+			buildPhases = (
+				13C9A44220278B870002915E /* Sources */,
+				13C9A44320278B870002915E /* Frameworks */,
+				13C9A44420278B870002915E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13C9A44820278B870002915E /* PBXTargetDependency */,
+			);
+			name = TelevisionBingeCalculatorTests;
+			productName = TelevisionBingeCalculatorTests;
+			productReference = 13C9A44620278B870002915E /* TelevisionBingeCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13C9A45020278B870002915E /* TelevisionBingeCalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13C9A46020278B870002915E /* Build configuration list for PBXNativeTarget "TelevisionBingeCalculatorUITests" */;
+			buildPhases = (
+				13C9A44D20278B870002915E /* Sources */,
+				13C9A44E20278B870002915E /* Frameworks */,
+				13C9A44F20278B870002915E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13C9A45320278B870002915E /* PBXTargetDependency */,
+			);
+			name = TelevisionBingeCalculatorUITests;
+			productName = TelevisionBingeCalculatorUITests;
+			productReference = 13C9A45120278B870002915E /* TelevisionBingeCalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13C9A42A20278B870002915E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = vanillax;
+				TargetAttributes = {
+					13C9A43120278B870002915E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					13C9A44520278B870002915E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 13C9A43120278B870002915E;
+					};
+					13C9A45020278B870002915E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 13C9A43120278B870002915E;
+					};
+				};
+			};
+			buildConfigurationList = 13C9A42D20278B870002915E /* Build configuration list for PBXProject "TelevisionBingeCalculator" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13C9A42920278B870002915E;
+			productRefGroup = 13C9A43320278B870002915E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13C9A43120278B870002915E /* TelevisionBingeCalculator */,
+				13C9A44520278B870002915E /* TelevisionBingeCalculatorTests */,
+				13C9A45020278B870002915E /* TelevisionBingeCalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13C9A43020278B870002915E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13C9A44020278B870002915E /* LaunchScreen.storyboard in Resources */,
+				13C9A43D20278B870002915E /* Assets.xcassets in Resources */,
+				13C9A43B20278B870002915E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13C9A44420278B870002915E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13C9A44F20278B870002915E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13C9A42E20278B870002915E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13C9A46A20279D7A0002915E /* APIClient.swift in Sources */,
+				13C9A43620278B870002915E /* AppDelegate.swift in Sources */,
+				13C9A46C202A9A6B0002915E /* TheMovieDbClient.swift in Sources */,
+				13C63EAE2030DA0A00984213 /* ViewModel.swift in Sources */,
+				1367DCFD20313E0700698769 /* ShowCell.swift in Sources */,
+				13C9A46E202A9AF50002915E /* Endpoint.swift in Sources */,
+				13FBC43D2031402100FD827D /* PinterestLayout.swift in Sources */,
+				13C9A470202A9FCE0002915E /* TVQueryResponse.swift in Sources */,
+				13FBC43B20313FE500FD827D /* ShowsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13C9A44220278B870002915E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13C9A44B20278B870002915E /* TelevisionBingeCalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13C9A44D20278B870002915E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13C9A45620278B870002915E /* TelevisionBingeCalculatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13C9A44820278B870002915E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13C9A43120278B870002915E /* TelevisionBingeCalculator */;
+			targetProxy = 13C9A44720278B870002915E /* PBXContainerItemProxy */;
+		};
+		13C9A45320278B870002915E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13C9A43120278B870002915E /* TelevisionBingeCalculator */;
+			targetProxy = 13C9A45220278B870002915E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13C9A43920278B870002915E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13C9A43A20278B870002915E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		13C9A43E20278B870002915E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13C9A43F20278B870002915E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13C9A45820278B870002915E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		13C9A45920278B870002915E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13C9A45B20278B870002915E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TelevisionBingeCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vanillax.TelevisionBingeCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		13C9A45C20278B870002915E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TelevisionBingeCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vanillax.TelevisionBingeCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		13C9A45E20278B870002915E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TelevisionBingeCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vanillax.TelevisionBingeCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TelevisionBingeCalculator.app/TelevisionBingeCalculator";
+			};
+			name = Debug;
+		};
+		13C9A45F20278B870002915E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TelevisionBingeCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vanillax.TelevisionBingeCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TelevisionBingeCalculator.app/TelevisionBingeCalculator";
+			};
+			name = Release;
+		};
+		13C9A46120278B870002915E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TelevisionBingeCalculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vanillax.TelevisionBingeCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TelevisionBingeCalculator;
+			};
+			name = Debug;
+		};
+		13C9A46220278B870002915E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TelevisionBingeCalculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vanillax.TelevisionBingeCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TelevisionBingeCalculator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13C9A42D20278B870002915E /* Build configuration list for PBXProject "TelevisionBingeCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13C9A45820278B870002915E /* Debug */,
+				13C9A45920278B870002915E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13C9A45A20278B870002915E /* Build configuration list for PBXNativeTarget "TelevisionBingeCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13C9A45B20278B870002915E /* Debug */,
+				13C9A45C20278B870002915E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13C9A45D20278B870002915E /* Build configuration list for PBXNativeTarget "TelevisionBingeCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13C9A45E20278B870002915E /* Debug */,
+				13C9A45F20278B870002915E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13C9A46020278B870002915E /* Build configuration list for PBXNativeTarget "TelevisionBingeCalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13C9A46120278B870002915E /* Debug */,
+				13C9A46220278B870002915E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13C9A42A20278B870002915E /* Project object */;
+}

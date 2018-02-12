@@ -1,0 +1,13 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "e8b2969052ccb576e372cc41a2b0dac1"
+build_time: [1518406962, 376388000]
+inputs:
+  "/Users/mitchross/Documents/Programming/IOS/TelevisionBingeCalculator/TelevisionBingeCalculator/TelevisionBingeCalculator/Networking/APIClient.swift": [1518386643, 0]
+  "/Users/mitchross/Documents/Programming/IOS/TelevisionBingeCalculator/TelevisionBingeCalculator/TelevisionBingeCalculator/AppDelegate.swift": [1517769735, 0]
+  "/Users/mitchross/Documents/Programming/IOS/TelevisionBingeCalculator/TelevisionBingeCalculator/TelevisionBingeCalculator/Networking/TheMovieDbClient.swift": [1518386643, 0]
+  "/Users/mitchross/Documents/Programming/IOS/TelevisionBingeCalculator/TelevisionBingeCalculator/TelevisionBingeCalculator/ViewModels/ViewModel.swift": [1518406962, 0]
+  "/Users/mitchross/Documents/Programming/IOS/TelevisionBingeCalculator/TelevisionBingeCalculator/TelevisionBingeCalculator/ViewModels/ShowCell.swift": [1518406019, 0]
+  "/Users/mitchross/Documents/Programming/IOS/TelevisionBingeCalculator/TelevisionBingeCalculator/TelevisionBingeCalculator/Networking/Endpoint.swift": [1518403184, 0]
+  "/Users/mitchross/Documents/Programming/IOS/TelevisionBingeCalculator/TelevisionBingeCalculator/TelevisionBingeCalculator/PinterestLayout.swift": [1518405834, 0]
+  "/Users/mitchross/Documents/Programming/IOS/TelevisionBingeCalculator/TelevisionBingeCalculator/TelevisionBingeCalculator/Networking/TVQueryResponse.swift": [1518387373, 0]
+  "/Users/mitchross/Documents/Programming/IOS/TelevisionBingeCalculator/TelevisionBingeCalculator/TelevisionBingeCalculator/ViewControllers/ShowsViewController.swift": [1518406354, 0]
