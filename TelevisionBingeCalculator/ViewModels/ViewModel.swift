@@ -67,13 +67,7 @@ class ViewModel {
         self.tvQueryResponse.results?.forEach { (result) in
             DispatchQueue.global(qos: .background).async(group: group) {
                 group.enter()
-                if( count >= 7)
-                {
-                    group.leave()
-                }
-                count = count + 1
-              
-                
+             
                 guard let posterPath = result.poster_path else {
                     return
                 }
