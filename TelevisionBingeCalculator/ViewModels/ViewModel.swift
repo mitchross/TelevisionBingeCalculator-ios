@@ -62,29 +62,33 @@ class ViewModel {
     private func fetchShow() {
         
         let group = DispatchGroup()
-        var count = 0;
         
         self.tvQueryResponse.results?.forEach { (result) in
             DispatchQueue.global(qos: .background).async(group: group) {
                 group.enter()
              
                 guard let posterPath = result.poster_path else {
+                    group.leave()
                     return
                 }
                 
                 let fullPosterUrl = self.getPosterURL(posterImageEndpoint: posterPath)
                 
                 guard let posterPathURL = URL(string: fullPosterUrl) else {
+                    group.leave()
                     return
                 }
                 
                 
                 guard let imageData = try? Data(contentsOf: posterPathURL) else {
+                    group.leave()
                     self.showError?(APIerror.imageDownload)
                     return
                 }
                 
                 guard let image = UIImage(data: imageData) else {
+               
+                    group.leave()
                     self.showError?(APIerror.imageConvert)
                     return
                 }
@@ -92,6 +96,7 @@ class ViewModel {
                 
                 self.showCellViewModels.append(ShowCellViewModel(image: image))
                 
+                print("loaded")
 
                 group.leave()
             }

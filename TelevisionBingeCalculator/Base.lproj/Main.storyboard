@@ -83,6 +83,7 @@
                                     </collectionViewCell>
                                 </cells>
                                 <connections>
+                                    <outlet property="dataSource" destination="OPN-pg-dAu" id="yjW-3a-FDP"/>
                                     <outlet property="delegate" destination="OPN-pg-dAu" id="FU8-uS-kDu"/>
                                 </connections>
                             </collectionView>

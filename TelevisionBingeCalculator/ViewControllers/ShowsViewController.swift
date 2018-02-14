@@ -19,10 +19,12 @@ class ShowsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         // Do any additional setup after loading the view, typically from a nib.
-        if let layout = collectionView.collectionViewLayout as? PinterestLayout {
-            layout.delegate = self
-        }
+//        if let layout = collectionView.collectionViewLayout as? PinterestLayout {
+//            layout.delegate = self
+//        }
+      //  collectionView.dataSource = self
         collectionView.contentInset = UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10)
         
         //Init view
@@ -77,6 +79,19 @@ class ShowsViewController: UIViewController {
 //
 //}
 
+extension ShowsViewController: UICollectionViewDelegateFlowLayout {
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        var newSize = (collectionView.bounds.size.width - 50) / 3
+        
+        return CGSize(width: newSize, height: newSize)
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        self.performSegue(withIdentifier: "detailsSegue", sender: self)
+    }
+    
+}
 extension ShowsViewController: PinterestLayoutDelegate {
     func collectionView(_ collectionView: UICollectionView, heightForPhotoAtIndexPath indexPath: IndexPath) -> CGFloat {
         let image = viewModel.showCellViewModels[indexPath.item].image
