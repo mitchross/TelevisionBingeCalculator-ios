@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1367DCFD20313E0700698769 /* ShowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1367DCFB20313E0700698769 /* ShowCell.swift */; };
+		13A0AA35203BC1710018CF7F /* ShowDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A0AA34203BC1710018CF7F /* ShowDetailViewController.swift */; };
 		13C63EAE2030DA0A00984213 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C63EAD2030DA0A00984213 /* ViewModel.swift */; };
 		13C9A43620278B870002915E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C9A43520278B870002915E /* AppDelegate.swift */; };
 		13C9A43B20278B870002915E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13C9A43920278B870002915E /* Main.storyboard */; };
@@ -42,6 +43,7 @@
 
 /* Begin PBXFileReference section */
 		1367DCFB20313E0700698769 /* ShowCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowCell.swift; sourceTree = "<group>"; };
+		13A0AA34203BC1710018CF7F /* ShowDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowDetailViewController.swift; sourceTree = "<group>"; };
 		13C63EAD2030DA0A00984213 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		13C9A43220278B870002915E /* TelevisionBingeCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TelevisionBingeCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13C9A43520278B870002915E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -166,6 +168,7 @@
 			isa = PBXGroup;
 			children = (
 				13FBC43A20313FE500FD827D /* ShowsViewController.swift */,
+				13A0AA34203BC1710018CF7F /* ShowDetailViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -312,6 +315,7 @@
 				13C9A46E202A9AF50002915E /* Endpoint.swift in Sources */,
 				13FBC43D2031402100FD827D /* PinterestLayout.swift in Sources */,
 				13C9A470202A9FCE0002915E /* TVQueryResponse.swift in Sources */,
+				13A0AA35203BC1710018CF7F /* ShowDetailViewController.swift in Sources */,
 				13FBC43B20313FE500FD827D /* ShowsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

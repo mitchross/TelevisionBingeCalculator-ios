@@ -11,7 +11,6 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - !private "+"
-- !private ">="
 - "APIClient"
 - !private "APIerror"
 - "AssignmentPrecedence"
@@ -32,6 +31,7 @@ depends-top-level:
 - !private "URL"
 - "ViewModel"
 - "Void"
+- !private "print"
 depends-member:
 - !private ["25TelevisionBingeCalculator9APIClientP", "fetch"]
 - !private ["25TelevisionBingeCalculator8APIerrorO", "deinit"]
@@ -42,7 +42,6 @@ depends-member:
 - !private ["s23BidirectionalCollectionP", "append"]
 - !private ["s23BidirectionalCollectionP", "forEach"]
 - !private ["s23BidirectionalCollectionP", "init"]
-- !private ["Sb", "_getBuiltinLogicValue"]
 - !private ["s7CVarArgP", "append"]
 - !private ["s7CVarArgP", "async"]
 - !private ["s7CVarArgP", "enter"]
@@ -65,13 +64,10 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "leave"]
 - !private ["s28CustomDebugStringConvertibleP", "main"]
 - !private ["s28CustomDebugStringConvertibleP", "notify"]
-- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
 - !private ["s29CustomPlaygroundQuickLookableP", "init"]
-- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
 - !private ["s17CustomReflectableP", "append"]
 - !private ["s17CustomReflectableP", "forEach"]
 - !private ["s17CustomReflectableP", "init"]
-- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
 - !private ["s23CustomStringConvertibleP", "append"]
 - !private ["s23CustomStringConvertibleP", "async"]
 - !private ["s23CustomStringConvertibleP", "enter"]
@@ -82,7 +78,6 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "main"]
 - !private ["s23CustomStringConvertibleP", "notify"]
 - !private ["10Foundation4DataV", "init"]
-- !private ["s9DecodableP", "_getBuiltinLogicValue"]
 - !private ["s9DecodableP", "append"]
 - !private ["s9DecodableP", "forEach"]
 - ["s9DecodableP", "init"]
@@ -104,14 +99,12 @@ depends-member:
 - !private ["So13DispatchQueueC", "main"]
 - !private ["25TelevisionBingeCalculator6EitherO", "error"]
 - !private ["25TelevisionBingeCalculator6EitherO", "success"]
-- !private ["s9EncodableP", "_getBuiltinLogicValue"]
 - !private ["s9EncodableP", "append"]
 - !private ["s9EncodableP", "forEach"]
 - ["s9EncodableP", "init"]
 - !private ["s9EncodableP", "poster_path"]
 - !private ["s9EncodableP", "results"]
 - !private ["25TelevisionBingeCalculator8EndpointP", "searchTV"]
-- !private ["s9EquatableP", "_getBuiltinLogicValue"]
 - !private ["s9EquatableP", "async"]
 - !private ["s9EquatableP", "background"]
 - !private ["s9EquatableP", "enter"]
@@ -126,11 +119,9 @@ depends-member:
 - !private ["s5ErrorP", "imageDownload"]
 - !private ["s25ExpressibleByArrayLiteralP", "append"]
 - !private ["s25ExpressibleByArrayLiteralP", "forEach"]
-- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s26ExpressibleByStringLiteralP", "init"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
-- !private ["s8HashableP", "_getBuiltinLogicValue"]
 - !private ["s8HashableP", "async"]
 - !private ["s8HashableP", "background"]
 - !private ["s8HashableP", "enter"]
@@ -141,7 +132,6 @@ depends-member:
 - !private ["s8HashableP", "leave"]
 - !private ["s8HashableP", "main"]
 - !private ["s8HashableP", "notify"]
-- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
 - !private ["s25LosslessStringConvertibleP", "init"]
 - !private ["s10MirrorPathP", "init"]
 - !private ["s17MutableCollectionP", "append"]
@@ -225,6 +215,7 @@ depends-member:
 - ["25TelevisionBingeCalculator9ViewModelC", "getPosterURL"]
 - ["25TelevisionBingeCalculator9ViewModelC", "init"]
 - ["25TelevisionBingeCalculator9ViewModelC", "isLoading"]
+- !private ["25TelevisionBingeCalculator9ViewModelC", "print"]
 - ["25TelevisionBingeCalculator9ViewModelC", "reloadData"]
 - ["25TelevisionBingeCalculator9ViewModelC", "showCellViewModels"]
 - ["25TelevisionBingeCalculator9ViewModelC", "showError"]
@@ -237,7 +228,6 @@ depends-member:
 - !private ["s23_BidirectionalIndexableP", "init"]
 - !private ["s24_DestructorSafeContainerP", "append"]
 - !private ["s24_DestructorSafeContainerP", "forEach"]
-- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
 - !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
@@ -262,7 +252,6 @@ depends-member:
 - !private ["s17_MutableIndexableP", "append"]
 - !private ["s17_MutableIndexableP", "forEach"]
 - !private ["s17_MutableIndexableP", "init"]
-- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
 - !private ["s21_ObjectiveCBridgeableP", "append"]
 - !private ["s21_ObjectiveCBridgeableP", "forEach"]
 - !private ["s21_ObjectiveCBridgeableP", "init"]
@@ -278,7 +267,6 @@ depends-nominal:
 - !private "25TelevisionBingeCalculator8APIerrorO"
 - !private "Sa"
 - !private "s23BidirectionalCollectionP"
-- !private "Sb"
 - !private "s7CVarArgP"
 - !private "s10CollectionP"
 - !private "s10ComparableP"
@@ -297,7 +285,6 @@ depends-nominal:
 - !private "s9EquatableP"
 - !private "s5ErrorP"
 - !private "s25ExpressibleByArrayLiteralP"
-- !private "s27ExpressibleByBooleanLiteralP"
 - !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
 - !private "s26ExpressibleByStringLiteralP"
 - !private "s33ExpressibleByUnicodeScalarLiteralP"
@@ -337,7 +324,6 @@ depends-nominal:
 - !private "s14_ArrayProtocolP"
 - !private "s23_BidirectionalIndexableP"
 - !private "s24_DestructorSafeContainerP"
-- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
 - !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
 - !private "s34_ExpressibleByBuiltinStringLiteralP"
 - !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"

@@ -99,6 +99,10 @@ extension ShowsViewController: PinterestLayoutDelegate {
         
         return height
     }
+    
+    func collectionView(_ collectionView: UICollectionView, didDeselectItemAt indexPath: IndexPath) {
+        print("selected \(indexPath)" )
+    }
 }
 
 // MARK: Data source
@@ -116,6 +120,8 @@ extension ShowsViewController: UICollectionViewDataSource {
         
         return cell;
     }
+    
+    
 }
 
 

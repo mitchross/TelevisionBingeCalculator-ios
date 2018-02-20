@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		lxKbaalONTZcvzvJmcCyL86bAVY=
+		CMDcXJs42UIvOKoaie5AqZDaKt8=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		EOdnc2KYQesywnHjuWozr7xTnrI=
+		34aGi8hcLlWRFAJVjCOtit1ml4I=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -18,19 +18,27 @@
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		YLX0f9khDKuNbbGrzVYpeEI5AeQ=
+		Zm8JIAOhApARTVCphtKPSCCkSE8=
 		</data>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
-		rXQzRk3TlD/BBDEipYWGIU2wq2E=
+		2yEXXynOx2/4fybwJ/kSuCDVea4=
 		</data>
 		<key>Base.lproj/Main.storyboardc/OPN-pg-dAu-view-wv3-1c-gvr.nib</key>
 		<data>
-		rGB1Y5CrH/Z1kXcEVpczhY0jTzg=
+		9SFfKabkCLsYYHD4tylpBwh3AcY=
+		</data>
+		<key>Base.lproj/Main.storyboardc/ShowDetailViewController.nib</key>
+		<data>
+		VHswgWO7hoxxUUOrEY7trj5qmCI=
 		</data>
 		<key>Base.lproj/Main.storyboardc/UINavigationController-Mod-eZ-r0j.nib</key>
 		<data>
-		cnMDZXz/jJVpkTk8FBTq5fiJcek=
+		ACv8U0ca2wkcX/TGvKZSZQGpURc=
+		</data>
+		<key>Base.lproj/Main.storyboardc/twJ-lY-BfT-view-ZSl-cC-14G.nib</key>
+		<data>
+		8hJ7qlEALmCPLXT2oxCXug+oPK0=
 		</data>
 		<key>Frameworks/libswiftCore.dylib</key>
 		<data>
@@ -86,7 +94,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		RlciJIsW2gWkiM8OmQPOU6h4Xt8=
+		0Qkh7W8X8gAO/aVh1g5uO5MRWTo=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -103,22 +111,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			lxKbaalONTZcvzvJmcCyL86bAVY=
+			CMDcXJs42UIvOKoaie5AqZDaKt8=
 			</data>
 			<key>hash2</key>
 			<data>
-			mENgUY0oP7AO3kxOLpfiYEKUdZav05s6Eui3MnQ2LPY=
+			zfBmI09VNY55cpubVTPazb2Y629HRABQ3XTULbQHgSg=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			EOdnc2KYQesywnHjuWozr7xTnrI=
+			34aGi8hcLlWRFAJVjCOtit1ml4I=
 			</data>
 			<key>hash2</key>
 			<data>
-			JqeJqJXa7gT68ecCublqCP5JF8r2GdNMVN8McvDHc+M=
+			vNXEpCpC6PCgT51GKcnVH5pmxTX5Oi6BteHKAwAmdlI=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
@@ -136,44 +144,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			YLX0f9khDKuNbbGrzVYpeEI5AeQ=
+			Zm8JIAOhApARTVCphtKPSCCkSE8=
 			</data>
 			<key>hash2</key>
 			<data>
-			cdrI1LKptQauzPqxEiCLLx+XK0LrSg29JN2gVq1bSng=
+			ZtJCqMxHJGeAkk2muAtvbGlpiB6bbj4B4BR8awlaumY=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			rXQzRk3TlD/BBDEipYWGIU2wq2E=
+			2yEXXynOx2/4fybwJ/kSuCDVea4=
 			</data>
 			<key>hash2</key>
 			<data>
-			OFOIe9a6JzLpPvlU8D9cdjsU6ixfcNrbGofNH2GjEkg=
+			/O62XvvOKPdj6Z5VNaZKOgR8Vudz8quXtv/FPTWqw+E=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/OPN-pg-dAu-view-wv3-1c-gvr.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			rGB1Y5CrH/Z1kXcEVpczhY0jTzg=
+			9SFfKabkCLsYYHD4tylpBwh3AcY=
 			</data>
 			<key>hash2</key>
 			<data>
-			YEGeOW6yMrp2O3MwiZWGQLqFGlh46dg0+lEE4ERkZuQ=
+			vduzlJBmZAkXXAbrzVuexhoW0Ojho+FZN0RUTfD+0rk=
+			</data>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/ShowDetailViewController.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			VHswgWO7hoxxUUOrEY7trj5qmCI=
+			</data>
+			<key>hash2</key>
+			<data>
+			LVhL97qi7dOzo2QEeThQ0RO/In9/wVqkxrtSjoBTH04=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/UINavigationController-Mod-eZ-r0j.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			cnMDZXz/jJVpkTk8FBTq5fiJcek=
+			ACv8U0ca2wkcX/TGvKZSZQGpURc=
 			</data>
 			<key>hash2</key>
 			<data>
-			9k+ki/mbCRELJGFncwp3lLgUQTC8TKMKgTO2dHmI/Mw=
+			SxRAdOkRRUhrYSVMUpPoXGFYyfWFE4oShCD6aMqJOq8=
+			</data>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/twJ-lY-BfT-view-ZSl-cC-14G.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8hJ7qlEALmCPLXT2oxCXug+oPK0=
+			</data>
+			<key>hash2</key>
+			<data>
+			5v/T2KFcRpDhfz3qKOOws1uzmZHqLdsW4ZLYFTjSq0g=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftCore.dylib</key>

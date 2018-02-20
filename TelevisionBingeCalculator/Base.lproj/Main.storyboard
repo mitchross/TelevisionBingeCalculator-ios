@@ -111,6 +111,35 @@
             </objects>
             <point key="canvasLocation" x="941.60000000000002" y="-9.4452773613193415"/>
         </scene>
+        <!--Show Detail View Controller-->
+        <scene sceneID="HnA-eQ-exa">
+            <objects>
+                <viewController storyboardIdentifier="ShowDetailViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="twJ-lY-BfT" customClass="ShowDetailViewController" customModule="TelevisionBingeCalculator" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZSl-cC-14G">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0Uw-N8-a4Q">
+                                <rect key="frame" x="5" y="25" width="365" height="637"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="vPJ-if-soy" firstAttribute="trailing" secondItem="0Uw-N8-a4Q" secondAttribute="trailing" constant="5" id="2qC-Pi-XYK"/>
+                            <constraint firstItem="vPJ-if-soy" firstAttribute="bottom" secondItem="0Uw-N8-a4Q" secondAttribute="bottom" constant="5" id="9Ox-HU-cug"/>
+                            <constraint firstItem="0Uw-N8-a4Q" firstAttribute="top" secondItem="vPJ-if-soy" secondAttribute="top" constant="5" id="fYT-5R-eRj"/>
+                            <constraint firstItem="0Uw-N8-a4Q" firstAttribute="leading" secondItem="vPJ-if-soy" secondAttribute="leading" constant="5" id="skb-lJ-9na"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="vPJ-if-soy"/>
+                    </view>
+                    <connections>
+                        <outlet property="posterImage" destination="0Uw-N8-a4Q" id="j2S-cj-Sbz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="B7Y-tp-2dO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1780" y="-16"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="fPC-wa-wh1">
             <objects>

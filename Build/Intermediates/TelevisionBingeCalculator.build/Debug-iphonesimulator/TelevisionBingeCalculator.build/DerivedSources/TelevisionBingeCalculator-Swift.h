@@ -223,9 +223,19 @@ SWIFT_CLASS("_TtC25TelevisionBingeCalculator8ShowCell")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class NSBundle;
+
+SWIFT_CLASS("_TtC25TelevisionBingeCalculator24ShowDetailViewController")
+@interface ShowDetailViewController : UIViewController
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified posterImage;
+- (void)viewDidLoad;
+- (void)didReceiveMemoryWarning;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class UICollectionView;
 @class UIActivityIndicatorView;
-@class NSBundle;
 
 SWIFT_CLASS("_TtC25TelevisionBingeCalculator19ShowsViewController")
 @interface ShowsViewController : UIViewController
@@ -238,11 +248,20 @@ SWIFT_CLASS("_TtC25TelevisionBingeCalculator19ShowsViewController")
 @end
 
 
+@interface ShowsViewController (SWIFT_EXTENSION(TelevisionBingeCalculator))
+- (void)collectionView:(UICollectionView * _Nonnull)collectionView didDeselectItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+@end
 
 
 @interface ShowsViewController (SWIFT_EXTENSION(TelevisionBingeCalculator)) <UICollectionViewDataSource>
 - (NSInteger)collectionView:(UICollectionView * _Nonnull)collectionView numberOfItemsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 - (UICollectionViewCell * _Nonnull)collectionView:(UICollectionView * _Nonnull)collectionView cellForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+@end
+
+
+@interface ShowsViewController (SWIFT_EXTENSION(TelevisionBingeCalculator)) <UICollectionViewDelegateFlowLayout>
+- (CGSize)collectionView:(UICollectionView * _Nonnull)collectionView layout:(UICollectionViewLayout * _Nonnull)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (void)collectionView:(UICollectionView * _Nonnull)collectionView didSelectItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
 @end
 
 SWIFT_MODULE_NAMESPACE_POP
