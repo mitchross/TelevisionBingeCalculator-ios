@@ -2,12 +2,15 @@
 provides-top-level:
 - "ShowCellViewModel"
 - "ViewModel"
+- "Syncronized"
 provides-nominal:
 - "25TelevisionBingeCalculator17ShowCellViewModelV"
 - "25TelevisionBingeCalculator9ViewModelC"
+- "25TelevisionBingeCalculator11SyncronizedV"
 provides-member:
 - ["25TelevisionBingeCalculator17ShowCellViewModelV", ""]
 - ["25TelevisionBingeCalculator9ViewModelC", ""]
+- ["25TelevisionBingeCalculator11SyncronizedV", ""]
 provides-dynamic-lookup:
 depends-top-level:
 - !private "+"
@@ -24,6 +27,7 @@ depends-top-level:
 - "ShowCellViewModel"
 - "String"
 - !private "StringLiteralType"
+- "Syncronized"
 - "TVQueryResponse"
 - !private "TheMovieDbClient"
 - !private "TheMovieDbEndpoint"
@@ -31,6 +35,8 @@ depends-top-level:
 - !private "URL"
 - "ViewModel"
 - "Void"
+- !private "objc_sync_enter"
+- !private "objc_sync_exit"
 - !private "print"
 depends-member:
 - !private ["25TelevisionBingeCalculator9APIClientP", "fetch"]
@@ -182,6 +188,10 @@ depends-member:
 - ["25TelevisionBingeCalculator17ShowCellViewModelV", "init"]
 - !private ["SS", "init"]
 - !private ["s14StringProtocolP", "init"]
+- ["25TelevisionBingeCalculator11SyncronizedV", "doSync"]
+- ["25TelevisionBingeCalculator11SyncronizedV", "init"]
+- !private ["25TelevisionBingeCalculator11SyncronizedV", "objc_sync_enter"]
+- !private ["25TelevisionBingeCalculator11SyncronizedV", "objc_sync_exit"]
 - ["25TelevisionBingeCalculator15TVQueryResponseV", "deinit"]
 - ["25TelevisionBingeCalculator15TVQueryResponseV", "init"]
 - !private ["25TelevisionBingeCalculator15TVQueryResponseV", "results"]
@@ -202,6 +212,7 @@ depends-member:
 - ["25TelevisionBingeCalculator9ViewModelC", "Error"]
 - ["25TelevisionBingeCalculator9ViewModelC", "ShowCellViewModel"]
 - ["25TelevisionBingeCalculator9ViewModelC", "String"]
+- !private ["25TelevisionBingeCalculator9ViewModelC", "Syncronized"]
 - ["25TelevisionBingeCalculator9ViewModelC", "TVQueryResponse"]
 - !private ["25TelevisionBingeCalculator9ViewModelC", "TheMovieDbClient"]
 - !private ["25TelevisionBingeCalculator9ViewModelC", "TheMovieDbEndpoint"]
@@ -311,6 +322,7 @@ depends-nominal:
 - "25TelevisionBingeCalculator17ShowCellViewModelV"
 - !private "SS"
 - !private "s14StringProtocolP"
+- "25TelevisionBingeCalculator11SyncronizedV"
 - "25TelevisionBingeCalculator15TVQueryResponseV"
 - !private "s16TextOutputStreamP"
 - !private "s20TextOutputStreamableP"
@@ -365,4 +377,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
-interface-hash: "6fb7fc98c132cd1df829f2fe575656f2"
+interface-hash: "57420e934836a1a51ba1a02dc1f0b55b"

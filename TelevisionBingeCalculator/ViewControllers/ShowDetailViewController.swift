@@ -11,8 +11,13 @@ import UIKit
 class ShowDetailViewController: UIViewController {
 
     @IBOutlet weak var posterImage: UIImageView!
+    var image: UIImage!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        posterImage.image = image
 
         // Do any additional setup after loading the view.
     }

@@ -26,19 +26,19 @@
 		</data>
 		<key>Base.lproj/Main.storyboardc/OPN-pg-dAu-view-wv3-1c-gvr.nib</key>
 		<data>
-		9SFfKabkCLsYYHD4tylpBwh3AcY=
+		3wDKx5GGpelISd/BSbghtsLfkoY=
 		</data>
 		<key>Base.lproj/Main.storyboardc/ShowDetailViewController.nib</key>
 		<data>
-		VHswgWO7hoxxUUOrEY7trj5qmCI=
+		Yn3mTUk8pohDpj350RJS3b0E/GY=
 		</data>
 		<key>Base.lproj/Main.storyboardc/UINavigationController-Mod-eZ-r0j.nib</key>
 		<data>
-		ACv8U0ca2wkcX/TGvKZSZQGpURc=
+		hEnj0cf4PQ2dItmcLbAc40IVn28=
 		</data>
 		<key>Base.lproj/Main.storyboardc/twJ-lY-BfT-view-ZSl-cC-14G.nib</key>
 		<data>
-		8hJ7qlEALmCPLXT2oxCXug+oPK0=
+		Ty9yhBxbozfvfY3K3midcilqZlk=
 		</data>
 		<key>Frameworks/libswiftCore.dylib</key>
 		<data>
@@ -166,44 +166,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9SFfKabkCLsYYHD4tylpBwh3AcY=
+			3wDKx5GGpelISd/BSbghtsLfkoY=
 			</data>
 			<key>hash2</key>
 			<data>
-			vduzlJBmZAkXXAbrzVuexhoW0Ojho+FZN0RUTfD+0rk=
+			GTUQzjKu3aXIe2NXvr3iTPWm+GxFRJKwUsj3vkCYS0s=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/ShowDetailViewController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			VHswgWO7hoxxUUOrEY7trj5qmCI=
+			Yn3mTUk8pohDpj350RJS3b0E/GY=
 			</data>
 			<key>hash2</key>
 			<data>
-			LVhL97qi7dOzo2QEeThQ0RO/In9/wVqkxrtSjoBTH04=
+			+HTTkltg1hhTCIP4u4B2qyyrk1vrlliShqnXEyLUe6E=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/UINavigationController-Mod-eZ-r0j.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ACv8U0ca2wkcX/TGvKZSZQGpURc=
+			hEnj0cf4PQ2dItmcLbAc40IVn28=
 			</data>
 			<key>hash2</key>
 			<data>
-			SxRAdOkRRUhrYSVMUpPoXGFYyfWFE4oShCD6aMqJOq8=
+			2uzi6HKUmbm4NCHlN/MQ0flcDkA1SmRAyBTCxbEgGY4=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/twJ-lY-BfT-view-ZSl-cC-14G.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8hJ7qlEALmCPLXT2oxCXug+oPK0=
+			Ty9yhBxbozfvfY3K3midcilqZlk=
 			</data>
 			<key>hash2</key>
 			<data>
-			5v/T2KFcRpDhfz3qKOOws1uzmZHqLdsW4ZLYFTjSq0g=
+			HK5lvKyqkIfMR0pJIFrUH/svmmIGtPjx6MG6xEeJUyA=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftCore.dylib</key>

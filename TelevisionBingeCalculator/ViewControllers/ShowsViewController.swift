@@ -52,9 +52,7 @@ class ShowsViewController: UIViewController {
         
     }
     
-    
-    
-    
+  
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -87,10 +85,7 @@ extension ShowsViewController: UICollectionViewDelegateFlowLayout {
         return CGSize(width: newSize, height: newSize)
     }
     
-    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        self.performSegue(withIdentifier: "detailsSegue", sender: self)
-    }
-    
+
 }
 extension ShowsViewController: PinterestLayoutDelegate {
     func collectionView(_ collectionView: UICollectionView, heightForPhotoAtIndexPath indexPath: IndexPath) -> CGFloat {
@@ -120,6 +115,16 @@ extension ShowsViewController: UICollectionViewDataSource {
         
         return cell;
     }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let detailsVC: ShowDetailViewController = (self.storyboard?.instantiateViewController(withIdentifier: "ShowDetailViewController") as! ShowDetailViewController)
+        
+        let image = viewModel.showCellViewModels[indexPath.item].image
+        detailsVC.image = image
+        self.navigationController?.pushViewController(detailsVC, animated: true)
+        //self.performSegue(withIdentifier: "detailsSegue", sender: self)
+    }
+    
     
     
 }

@@ -93,8 +93,9 @@ class ViewModel {
                     return
                 }
                 
-                
-                self.showCellViewModels.append(ShowCellViewModel(image: image))
+                Syncronized.doSync(self.showCellViewModels){
+                    self.showCellViewModels.append(ShowCellViewModel(image: image))
+                }
                 
                 print("loaded")
 
@@ -112,5 +113,13 @@ class ViewModel {
     func getPosterURL(posterImageEndpoint: String) -> String {
         var basePosterURL: String = "http://image.tmdb.org/t/p/w500"
         return basePosterURL + posterImageEndpoint
+    }
+}
+
+struct Syncronized {
+    static func doSync(_ lock: Any, closure: () -> ()) {
+        objc_sync_enter(lock)
+        closure()
+        objc_sync_exit(lock)
     }
 }
